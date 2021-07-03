@@ -1,0 +1,26 @@
+{
+  "name": "crypto-giveaway-wheel-smart-contracts",
+  "version": "1.0.0",
+  "description": "CryptoGiveawayWheel-Smart-Contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "nodemon": "nodemon --ext \"js,sol\" --exec \"truffle test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-Smart-Contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-Smart-Contracts/issues"
+  },
+  "homepage": "https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-Smart-Contracts#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
