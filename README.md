@@ -42,7 +42,7 @@ truffle deploy
 
 ## Core Functions
 
-#### Admin Functions - Only allowed to be called by the owner address (group organizer).
+#### Admin Functionality - Only allowed to be called by the owner address (group organizer).
 
   - **Start Event** - Allows participants to register and sponsor to make contribution.
 
@@ -77,4 +77,7 @@ truffle deploy
 <br/>
 
 
-For more info on this project, see [The Crypto Giveaway Whitepaper (Draft)](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-White-Paper).
+For more info on this project, please see these other repos:
+ - [The Crypto Giveaway Wheel Overview](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel).
+ - [The Crypto Giveaway Wheel Whitepaper (Draft)](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-White-Paper).
+ - [The Crypto Giveaway Wheel Web Frontend](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-Web-Frontend).
