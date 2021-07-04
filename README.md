@@ -40,7 +40,7 @@ truffle deploy
 
 <br/>
 
-## Core Functions
+## Core Functionality
 
 #### Admin Functionality - Only allowed to be called by the owner address (group organizer).
 
