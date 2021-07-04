@@ -78,6 +78,6 @@ truffle deploy
 
 
 For more info on this project, please see these other repos:
- - [The Crypto Giveaway Wheel Overview](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel).
- - [The Crypto Giveaway Wheel Whitepaper (Draft)](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-White-Paper).
- - [The Crypto Giveaway Wheel Web Frontend](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-Web-Frontend).
+ - [The Crypto Giveaway Wheel Overview](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel)
+ - [The Crypto Giveaway Wheel Whitepaper (Draft)](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-White-Paper)
+ - [The Crypto Giveaway Wheel Web Frontend](https://github.com/TDD-Solidity/Crypto-Giveaway-Wheel-Web-Frontend)
