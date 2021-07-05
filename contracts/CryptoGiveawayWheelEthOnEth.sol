@@ -7,7 +7,10 @@ pragma solidity >=0.4.22 <0.9.0;
 //  meant for giving away ether on the ethereum network.
 
 contract CryptoGiveawayWheelEthOnEth {
+    
     address public owner = msg.sender;
+
+    address devWalletAddress = "0x123123123123123123123123123123";
 
     address sponsorAddress;
     string sponsorName;
@@ -134,7 +137,7 @@ contract CryptoGiveawayWheelEthOnEth {
 
     modifier isRegistered() {
         require(
-            participantRegistered[msg.sender] === true,
+            participantRegistered[msg.sender] == true,
             "This function is restricted to recipients"
         );
         _;
@@ -165,10 +168,13 @@ contract CryptoGiveawayWheelEthOnEth {
     }
 
     function registerForEvent() public onlyRecipient registrationIsOpen isRegistered isRecognizedRecipient {
-
+        participantRegistered[msg.sender] = true;
+        addressesRegisteredForEvent.push(msg.sender);
     }
 
-    function claimWinnings() public onlyRecipient claimWinningsIsOpen {
+    function claimWinnings() public onlyRecipient claimWinningsIsOpen  {
+
+        // TODO - pull payment
 
     }
 
