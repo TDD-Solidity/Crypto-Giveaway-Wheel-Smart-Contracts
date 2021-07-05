@@ -1,3 +1,5 @@
-module.exports = function(_deployer) {
-  // Use deployer to state migration tasks.
+const CryptoGiveawayWheelEthOnEth = artifacts.require("CryptoGiveawayWheelEthOnEth");
+
+module.exports = function (deployer) {
+  deployer.deploy(CryptoGiveawayWheelEthOnEth);
 };
