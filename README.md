@@ -57,13 +57,22 @@ truffle deploy
 
 <br/>
 
+
 #### Sponsor Functionality - Only allowed to be called by the designated sponsors.
 
-  - **Start Event** - Allows participants to register and sponsor to make contribution.
 
-  - **Spin Wheel** - After this is called, participants can no longer register and sponsors can no longer contribute. A grand prize winner is randomly selected. Participants can then claim their winnings.
+  - **Contribute To Pot** - Allows contributor to add cryptocurrency or NFTs to the pot to be distributed to recipients.
 
-  - **End Event** - After this is called, participants can no longer claim winnings. Any unclaimed winnings are transferred to the dev wallet.
+
+  - **Update Sponsor Name** - Allows contributor to update the name displayed as the sponsor for that day.
+
+
+  - **Update Sponsor Image** - Allows contributor to edit the image displayed at the top of the page.
+
+
+  - **Update Sponsor Link** - Allows contributor to edit the url that the user is sent to when clicking the sponsor image.
+
+
 
 <br/>
 
