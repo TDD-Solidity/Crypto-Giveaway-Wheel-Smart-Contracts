@@ -107,7 +107,7 @@ contract CryptoGiveawayWheelEthOnEth {
         _;
     }
 
-    function contributeToPot() public contributorOnly {
+    function contributeToPot() public contributorOnly payable {
         // TODO send eth to dev wallet
     }
 
